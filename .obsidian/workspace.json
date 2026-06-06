@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "eef15aa56a5a7fec",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6c4d0c8e21a8e46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91bbbae9d9b920d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94a7636eaf50c6a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bd860cd1be163ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2022948040aca873",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "b16ba8b597e102bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "da0a08857c1dc0a8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "01de807afeaf58ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "380517c102c7e52d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cdb7bc498cfd8a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для TODO"
+            }
+          },
+          {
+            "id": "97a15df854336986",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из TODO"
+            }
+          },
+          {
+            "id": "dc0b5c1ebbd5fc35",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "be1891b7796e2b54",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "2470016d3077adf4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "91bbbae9d9b920d9",
+  "lastOpenFiles": [
+    "backend/src/config/env.ts",
+    "backend/src/config",
+    "backend/src/routes/health.routes.ts",
+    "backend/src/routes",
+    "backend/src/server.ts",
+    "backend/src/ app.ts",
+    "backend/src",
+    "backend/tsconfig.json",
+    "backend/node_modules/@esbuild/darwin-arm64/bin/esbuild",
+    "backend/node_modules/@esbuild/darwin-arm64/README.md",
+    "backend/node_modules/@esbuild/darwin-arm64/package.json",
+    "backend/node_modules/@esbuild/darwin-arm64/bin",
+    "backend/node_modules/@types/serve-static/README.md",
+    "backend/node_modules/@types/send/README.md",
+    "backend/node_modules/@types/range-parser/README.md",
+    "backend/node_modules/@types/qs/README.md",
+    "backend/node_modules/@types/node/README.md",
+    "backend/node_modules/@types/ms/README.md",
+    "backend/node_modules/@types/jsonwebtoken/README.md",
+    "backend/node_modules/@types/express-serve-static-core/README.md",
+    "backend/node_modules/@types/http-errors/README.md",
+    "backend/node_modules/@types/express/README.md",
+    "backend/node_modules/@types/connect/README.md",
+    "backend/node_modules/@types/cors/README.md",
+    "backend/node_modules/@types/body-parser/README.md",
+    "backend/node_modules/esbuild/README.md",
+    "backend/node_modules/esbuild/LICENSE.md",
+    "backend/node_modules/undici-types/README.md",
+    "backend/node_modules/typescript/SECURITY.md",
+    "backend/node_modules/typescript/README.md",
+    "backend/node_modules/tsx/README.md",
+    "backend/node_modules/viem/README.md",
+    "backend/node_modules/viem/CHANGELOG.md",
+    "backend/node_modules/ox/README.md",
+    "backend/node_modules/ox/CHANGELOG.md",
+    "backend/node_modules/@noble/curves/README.md"
+  ]
+}
