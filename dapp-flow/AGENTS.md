@@ -24,7 +24,9 @@ This project uses Atomic Design inside `src/components`.
 - Build new sections from existing atoms and molecules before creating another component.
 - If a new reusable UI element appears, extract it into the smallest useful Atomic Design layer.
 - Do not duplicate button, tag, logo, typography, or card styles inside sections.
+- Use `src/components/atoms/Container.tsx` for shared page width and horizontal padding instead of repeating `mx-auto`, `max-w-*`, `px-*`, or responsive side padding in sections.
 - Add colors and shared visual tokens to `app/globals.css` first, then consume them with Tailwind classes.
+- Keep app-wide background and grid styling on the root layout via the `.app-shell` class in `app/globals.css`; do not duplicate page backgrounds unless a route intentionally needs a different visual surface.
 - Prefer variant props for small visual differences instead of creating near-identical components.
 - Keep atoms feature-agnostic. Product-specific copy and data should live in molecules, organisms, or pages.
 - Keep page components composition-focused. Data fetching can happen in Next route files and be passed down.

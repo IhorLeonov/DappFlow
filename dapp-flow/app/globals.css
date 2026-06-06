@@ -70,3 +70,16 @@
     color: var(--df-bg);
   }
 }
+
+@layer components {
+  .app-shell {
+    min-height: 100dvh;
+    overflow-x: hidden;
+    background-color: var(--df-bg);
+    background-image:
+      linear-gradient(to right, var(--df-grid-primary) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--df-grid-secondary) 1px, transparent 1px);
+    background-size: 64px 64px;
+    color: var(--df-text);
+  }
+}

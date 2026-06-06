@@ -1,4 +1,5 @@
 import { Button } from "@/src/components/atoms/Button";
+import { Container } from "@/src/components/atoms/Container";
 import { Tag } from "@/src/components/atoms/Tag";
 import { H1, P } from "@/src/components/atoms/Typography";
 import { HeroStats } from "@/src/components/molecules/HeroStats";
@@ -6,7 +7,10 @@ import { QuestConsole } from "@/src/components/organisms/QuestConsole";
 
 export function HomeHero() {
   return (
-    <section className="mx-auto grid min-h-[calc(100vh-152px)] w-full max-w-7xl gap-10 px-5 py-10 sm:px-8 lg:grid-cols-[1fr_0.9fr] lg:items-center">
+    <Container
+      as="section"
+      className="grid min-h-[calc(100vh-152px)] gap-10 py-10 lg:grid-cols-[1fr_0.9fr] lg:items-center"
+    >
       <div>
         <Tag className="mb-5 px-3 py-2" variant="danger">
           Learn to earn sandbox
@@ -26,6 +30,6 @@ export function HomeHero() {
       </div>
 
       <QuestConsole />
-    </section>
+    </Container>
   );
 }
